@@ -42,7 +42,6 @@ def modify(answer_id):
             
     
     
-    
 @bp.route('/delete/<int:answer_id>')
 @login_required
 def delete(answer_id):
