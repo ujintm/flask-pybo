@@ -7,22 +7,22 @@
 
 ## 📂 프로젝트 실행 방법
 
-1️⃣ 레포 클론
+1. 레포 클론
 ```bash
 git clone [레포주소]
 cd [프로젝트폴더]
 
-2️⃣ 가상환경 생성 및 활성화
+2. 가상환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate   # Windows는 venv\Scripts\activate
 
-3️⃣ 필요 패키지 설치
+3. 필요 패키지 설치
 pip install -r requirements.txt
 
-4️⃣ 데이터베이스 초기화
+4. 데이터베이스 초기화
 flask db init
 flask db migrate
 flask db upgrade
 
-5️⃣ 서버 실행
+5. 서버 실행
 flask run
